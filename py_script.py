@@ -6,7 +6,7 @@ import os
 
 os.system("touch /home/{user_name}/Desktop/py/py_script | echo \"someone\nsomewhere\nsomehow\" >> /home/{user_name}/Desktop/py/py_script")
 
-file = open"(/home/{user_name}/Desktop/py/py_script" , "r+")
+file = open("/home/{user_name}/Desktop/py/py_script" , "r+")
 
 for line in file:
   print(line)
